@@ -5,6 +5,8 @@ const CART_INITIAL_STATE = {
   cartItems: [],
 };
 
+// const cartDropdownAway = (isCartOpen) => (isCartOpen ? false : true);
+
 const addCartItem = (cartItems, productToAdd) => {
   const existingCartItem = cartItems.find(
     (cartItem) => cartItem.id === productToAdd.id
